@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Mi Tienda</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Tienda</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+      <section class="busqueda">
+    <input type="text" id="buscador" placeholder="🔍 Buscar productos..." oninput="filtrarProductos()" />
+</section>
+</header>
+
+<main>
+    <h2>Bienvenido a nuestra tienda en línea</h2>
+    <p>Encuentra los mejores productos al mejor precio.</p>
+
+    <section class="ofertas">
+        <h2>Ofertas del día 🔥🔥</h2>
+        <div class="productos">
+            <figure class="producto">
+                <img src="/storage/emulated/0/Download/images (16).jpg" width="200px" alt="BMW s1000rr" />
+                <figcaption>
+                    <h3>BMW s1000rr</h3>
+                    <p class="descripcion">Motor: Motor de 4 tiempos, 4 cilindros en línea, refrigerado por agua/aceite, con 999 cc y una potencia nominal de 154 kW (210 CV) a 13750 rpm. 
+Tecnología: BMW ShiftCam, que permite una optimización del perfil de par para una mayor respuesta en todo el rango de revoluciones. </p>
+                    <p class="precio-oferta">$439,900.00 </del>oferta:$400,000</p>
+                    <p class="rating ">⭐⭐⭐⭐⭐</p>
+                    <button onclick="agregarAlcarrito"('BMW s1000rr',20000)">
+                     Agregar al carrito </button>"
+                </figcaption>       
+        </figure>
+    </div>
+      <figure class="producto">
+                <img src="/storage/emulated/0/Download/descarga (22).jpg" width="200px" alt="Kawasaki Ninja H2" />
+                <figcaption>
+                    <h3>Kawasaki Ninja H2</h3>
+                    <p class="descripcion">Motor sobrealimentado:
+El motor de 998 cc, refrigerado por líquido, con un supercargador centrífugo de velocidad variable, ofrece una potencia máxima y una aceleración sobresaliente. 
+Diseño aerodinámico:
+La Ninja H2 presenta un diseño aerodinámico agresivo que ayuda a reducir la resistencia y a generar fuerza descendente, especialmente en la versión H2R. 
+                    </p>
+                    <p class="precio-oferta">$949,990.00 </del>$850,000.00</p>
+                    <p class="rating ">⭐⭐⭐⭐⭐</p>
+                    <button onclick="agregarAlcarrito"('Kawasaki Ninja H2',20000)">
+                     Agregar al carrito </button>"
+                </figcaption>       
+        </figure>
+    
+     <figure class="producto">
+                <img src="/storage/emulated/0/Download/descarga (24).jpg" width="200px" alt="Yamaha r6" />
+                <figcaption>
+                    <h3>Yamaha r6</h3>
+                    <p class="descripcion">Motor: 4 cilindros en línea, 599 cc, refrigerado por líquido, DOHC.
+Potencia: 87,1 kW (118,4 CV) a 14.500 rpm.
+Transmisión: Constante de 6 velocidades.</p>
+                    <p class="precio-oferta">$328,666.10 </del>$290,000.00</p>
+                    <p class="rating ">⭐⭐⭐⭐⭐</p>
+                    <button onclick="agregarAlcarrito"('Yamaha r6',20000)">
+                     Agregar al carrito </button>"
+                </figcaption>       
+        </figure>
+    
+      <figure class="producto">
+                <img src="/storage/emulated/0/Download/descarga (12).jpg" width="200px" alt="Ducati Panigal v4" />
+                <figcaption>
+                    <h3>Ducati Panigal v4</h3>
+                    <p class="descripcion">Cilindrada. 1,103 cc.
+Potencia. 216 CV @ 13,500 rpm.
+Par motor. 120.9 Nm @ 11.250 rpm.
+PESO HÚMEDO SIN COMBUSTIBE. 191 KG.
+GARANTÍA. 48 meses sin límite de km.
+MANTENIMIENTO. 12,000 km / 12 meses.
+ALTURA ASIENTO. 850 mm.</p>
+                    <p class="precio-oferta">$750,000,00 </del>$650,000.00</p>
+                    <p class="rating ">⭐⭐⭐⭐⭐</p>
+                    <button onclick="agregarAlcarrito"('Ducati Panigal V4',20000)">
+                     Agregar al carrito </button>"
+                </figcaption>       
+        </figure>
+
+ <figure class="producto">
+                <img src="/storage/emulated/0/Download/descarga (62).jpg" width="200px" alt="Honda CBR1000RR" />
+                <figcaption>
+                    <h3>Honda CBR1000RR</h3>
+                    <p class="descripcion">Diámetro x carrera (mm)	81mm x 48,5mm
+Potencia máxima	159,5kw (217CV)/14.500rpm
+Par máximo	113Nm/12.500rpm
+Arranque	Eléctrico
+Diámetro mariposa	52mm</p>
+                    <p class="precio-oferta">$658,092.00 </del>$600,000.00</p>
+                    <p class="rating ">⭐⭐⭐⭐⭐</p>
+                    <button onclick="agregarAlcarrito"('Honda CBR1000RR',20000)">
+                     Agregar al carrito </button>"
+                </figcaption>       
+        </figure>
+
+ <figure class="producto">
+                <img src="/storage/emulated/0/Download/images (18).jpg" width="200px" alt="Suzuki gsx r1000r" />
+                <figcaption>
+                    <h3>Suzuki gsx r1000r</h3>
+                    <p class="descripcion">Faro delantero LED de alta iluminación.
+Horquillas de última generación SHOWA BFF.
+Llanta delantera con ABS.
+Motor de 4 tiempos, refrigeración por líquido y 4 cilindros.
+Escape con exclusivo sistema Suzuki Exhaust Tuning Alfa.
+Luces stop.
+Llanta trasera con acento cromático deportivo.
+Asiento escalonado para piloto .</p>
+                    <p class="precio-oferta">$450,490.00 </del>$400,000.00</p>
+                    <p class="rating ">⭐⭐⭐⭐⭐</p>
+                    <button onclick="agregarAlcarrito"('Suzuki gsx r1000r',20000)">
+                     Agregar al carrito </button>"
+                </figcaption>       
+        </figure>
+            </header>
+</body>
+      
+</html>
